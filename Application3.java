@@ -38,7 +38,7 @@ public class Application3 {
                 break;   
                 
             } else {
-            //Incorrect answer prompting them to try again
+            //Incorrect answer prompting them to try again until it is right
             	System.out.println("Please try again!");
             }
              
