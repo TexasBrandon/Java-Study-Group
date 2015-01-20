@@ -1,0 +1,60 @@
+//Class and object learning
+
+
+//Here I am defining a class or object known as Vegetables which contains data on the class or object "Vegetables"
+class Vegetables {
+	
+	String color;
+	int size;
+	int amount;
+}
+
+
+public class RedFruit {
+	
+	public static void main(String[] args){
+		
+		//Now lets use the prior class a.k.a. object within the main method
+		
+		Vegetables vegetable1 = new Vegetables();
+		vegetable1.color = "green";
+		vegetable1.size = 5;
+		vegetable1.amount = 1;
+		
+		//Lets take that object and it's data to form a sentence
+		System.out.println("The green pepper is " + vegetable1.color + 
+				" and is " + vegetable1.size +" inches in diamter " + "but I only have " + vegetable1.amount);
+		
+		//Another example to help the learning process.  Again, we define a new object with the Vegetables class.
+		Vegetables vegetable2 = new Vegetables();
+		vegetable2.color = "red";
+		vegetable2.size = 1;
+		vegetable2.amount = 5;
+		
+		System.out.println("The beet is " + vegetable2.color + " and about " + vegetable2.size + 
+				" inch but I have " + vegetable2.amount + " of them.");
+		
+		//By this point you should be getting the hang of this. 3rd time is a charm.
+		
+		Vegetables vegetable3 = new Vegetables();
+		vegetable3.color = "purple";
+		vegetable3.amount = 2;
+		
+		System.out.println("I have a " + vegetable3.color + " eggplant but I only know that I got " + 
+		vegetable3.amount + " of them, the size eludes me!");
+		
+		//I lied, one more example.
+		Vegetables vegetable4 = new Vegetables();
+		vegetable4.color = "pink";
+		vegetable4.size = 50;
+		vegetable4.amount = 12;
+		
+		System.out.println("I have a very large and " + vegetable4.color + " cucumber. It's about " +
+		vegetable4.size + " by " + vegetable1.size + "and I have " + vegetable4.amount + " of them!");
+		
+		System.out.println("Yea you heard me, I said I had 12 pink cucumbers, what are you going to do about it?");
+		
+	}
+
+
+}
