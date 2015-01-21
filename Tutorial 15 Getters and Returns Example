@@ -1,0 +1,45 @@
+class Vegetables {
+	
+	//The usual here.  we are creating a vegetables class with the following types and variables:
+	String name;
+	int quantity;
+	String color;
+	
+	//Here we make a method that isn't of type "VOID", this means it will return something
+	String getName() {
+		return name;
+	}
+	
+	//Again, here we make another method with an integer that returns quantity
+	int amountOf() {
+		return quantity;
+	}
+	
+	//Here we generate a string method named appearance that returns color
+	String appearance() {
+		return color;
+	}
+}
+
+public class App2 {
+
+	public static void main(String[] args) {
+		
+		/*Here we are creating an object called vegetable1 and assigning it traits from the Vegetables class.
+		 * Additionally, we are using some non-void methods within the Vegetables class to return static values
+		 * for us.
+		 */
+		
+		Vegetables vegetable1 = new Vegetables();
+		vegetable1.name = "Cucumber";
+		vegetable1.quantity = 5;
+		vegetable1.color = "blue";
+		vegetable1.getName();
+		vegetable1.amountOf();
+		vegetable1.appearance();
+		
+		System.out.println("I have a " + vegetable1.getName());
+		System.out.println("and I have " + vegetable1.amountOf() + " of them!");
+		System.out.println("This " + vegetable1.name + " is " + vegetable1.appearance());
+	}
+}
